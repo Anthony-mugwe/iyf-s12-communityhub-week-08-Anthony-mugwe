@@ -1,67 +1,139 @@
-# CommunityHub — Week 8 React Fundamentals
+CommunityHub – Week 8
 
-A team-built community frontend for IYF Wecan Academy Season 12.
+IYF Wecan Academy – Season 12
 
-## Repository
-This is the frontend starter for the shared repository:
-`iyf-s12-communityhub-team-<leadusername>`
+A community platform built with React that allows users to share posts, explore content, interact with posts, save useful posts, and connect with community groups.
 
-Do not create an individual Week 08 repository. Every teammate submits the same team repository link, but must contribute through their own branches, commits, pull requests and reviews.
+👤 Author
 
-## Requirements included
-- Vite + React app in `frontend/`
-- Header, Footer, Sidebar, PostList and CreatePost components
-- Posts held in React state with `useState`
-- Create-post form with validation
-- Utility helper and 4 Vitest tests
-- Responsive styling
-- Exercise folder for `Anthony-mugwe`
-- Team contribution and issue templates
+- Name: Anthony Mugwe
+- GitHub: "Anthony-mugwe" (https://github.com/Anthony-mugwe)
+- Project: Week 8 – CommunityHub
 
-## Setup
+🚀 Project Overview
 
-```bash
-cd frontend
+CommunityHub is a React-based community platform designed to bring people together in one place. Users can create posts, explore community content, search for posts, interact with posts, save posts, and join groups.
+
+The project focuses on learning React fundamentals and building reusable components.
+
+✨ Features
+
+- Home Feed: View community posts.
+- Create Posts: Share updates with the community.
+- Explore: Browse and search posts.
+- Category Filtering: Filter posts by category.
+- Like Posts: Interact with community posts.
+- Comments: Add comments to posts.
+- Save Posts: Save posts for later.
+- Groups: Join and leave community groups.
+- Responsive Design: Layout adapts to different screen sizes.
+- Reusable Components: Organized React components.
+
+🛠️ Technologies Used
+
+- React
+- JavaScript (ES6+)
+- JSX
+- HTML5
+- CSS3
+- Vite
+- ESLint
+- Vitest
+
+📁 Project Structure
+
+iyf-s12-communityhub-week-08-Anthony-mugwe/
+│
+├── frontend/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── eslint.config.js
+│   │
+│   └── src/
+│       ├── App.jsx
+│       ├── main.jsx
+│       ├── styles.css
+│       │
+│       ├── components/
+│       │   ├── Header.jsx
+│       │   ├── Footer.jsx
+│       │   ├── Sidebar.jsx
+│       │   ├── CreatePost.jsx
+│       │   └── PostList.jsx
+│       │
+│       ├── utils/
+│       │   ├── postUtils.js
+│       │   └── postUtils.test.js
+│       │
+│       └── exercises/
+│           └── Anthony-mugwe/
+│               ├── Button.jsx
+│               ├── Greeting.jsx
+│               ├── InfoCard.jsx
+│               ├── NameList.jsx
+│               ├── PageLayout.jsx
+│               └── README.md
+│
+├── CONTRIBUTORS.md
+├── ISSUES.md
+├── README.md
+└── .gitignore
+
+⚙️ Installation and Setup
+
+1. Clone the repository
+
+git clone https://github.com/Anthony-mugwe/iyf-s12-communityhub-week-08-Anthony-mugwe.git
+
+2. Enter the frontend directory
+
+cd iyf-s12-communityhub-week-08-Anthony-mugwe/frontend
+
+3. Install dependencies
+
 npm install
+
+4. Start the development server
+
 npm run dev
-```
 
-Run tests and build:
+Open the local URL displayed in your terminal.
 
-```bash
+🧪 Testing
+
+Run the tests:
+
 npm test
+
+Run ESLint:
+
+npm run lint
+
+Build the project:
+
 npm run build
-```
 
-## Team workflow
-1. Lead creates the shared GitHub repository and adds collaborators.
-2. Protect `main` so changes require a pull request and one approval.
-3. Create one GitHub Issue for each MVP feature: profiles, posts, comments and auth.
-4. Each member creates a feature branch, makes their own commits, opens a PR and gets a teammate review.
-5. Add your own entry to `CONTRIBUTORS.md` in your own PR.
-6. Do not push directly to `main`.
+📚 Learning Objectives
 
-## Week 8 setup checklist
-- [ ] Replace `<leadusername>` in the repository name with the actual Week 0 registered username of the team lead.
-- [ ] Add team members as collaborators.
-- [ ] Enable branch protection for `main`.
-- [ ] Create the four MVP issues.
-- [ ] Each member verifies `git config --global user.email` matches their GitHub email.
-- [ ] Each member opens and reviews at least one PR.
-- [ ] Check Insights → Contributors after the first PR merges.
+This project demonstrates:
 
-## Feature ownership (fill in as a team)
+- Creating functional React components.
+- Understanding JSX.
+- Passing and using props.
+- Managing state with "useState".
+- Handling events.
+- Rendering lists using "map()".
+- Using unique keys in React lists.
+- Using "useEffect".
+- Sharing functionality through reusable components.
+- Organizing a React project.
+- Writing basic unit tests.
 
-| MVP feature | Owner | Issue |
-|---|---|---|
-| Profiles | To be assigned | Add issue link |
-| Posts | To be assigned | Add issue link |
-| Comments | To be assigned | Add issue link |
-| Authentication | To be assigned | Add issue link |
+🎯 Week 8 Goal
 
-## Week 8 submission
-Submit the shared team repository URL yourself in Classroom. Do not submit a ZIP, file attachment, Drive link or Codespaces link. Test the repo URL in a private/incognito browser window before turning it in.
+Build a functional React community platform while practicing component-based development, state management, props, events, and reusable UI elements.
 
-## Important
-This is a Week 8 frontend foundation. Authentication, persistent backend data, comments and profile management are planned MVP features for later weeks; the current post form uses local React state only.
+📄 License
 
+This project was created for educational purposes as part of IYF Wecan Academy Season 12.
