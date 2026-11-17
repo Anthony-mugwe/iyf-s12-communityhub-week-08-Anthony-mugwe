@@ -64,3 +64,4 @@ Submit the shared team repository URL yourself in Classroom. Do not submit a ZIP
 
 ## Important
 This is a Week 8 frontend foundation. Authentication, persistent backend data, comments and profile management are planned MVP features for later weeks; the current post form uses local React state only.
+
