@@ -136,4 +136,4 @@ Build a functional React community platform while practicing component-based dev
 
 📄 License
 
-This project was created for educational purposes as part of IYF Wecan Academy Season 12.
+This project was created for educational purposes as part of IYF Wecan Acadamy Season 12.
