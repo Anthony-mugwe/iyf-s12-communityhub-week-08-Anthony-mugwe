@@ -1,0 +1,7 @@
+.box { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; display: flex; align-items: center; gap: .85rem; flex-wrap: wrap; }
+.loading { background: var(--primary-soft); border-color: #93c5fd; color: var(--primary-soft-text); }
+.error { background: var(--danger-soft); border-color: #fca5a5; color: var(--danger); }
+.message { font-weight: 600; flex: 1; }
+.spinner { width: 20px; height: 20px; border: 3px solid #93c5fd; border-top-color: var(--primary); border-radius: 50%; animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.retryBtn { background: var(--danger); color: #fff; border: 0; padding: .45rem .9rem; border-radius: 6px; font-weight: 600; cursor: pointer; }
