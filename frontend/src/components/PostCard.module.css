@@ -1,0 +1,19 @@
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; display: flex; flex-direction: column; gap: .65rem; }
+.meta { display: flex; justify-content: space-between; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.badges { display: flex; gap: .4rem; align-items: center; }
+.categoryBadge, .localBadge { font-size: .78rem; font-weight: 700; padding: .2rem .6rem; border-radius: 999px; }
+.categoryBadge { background: var(--primary-soft); color: var(--primary-soft-text); }
+.localBadge { background: var(--success-soft); color: var(--success); }
+.date { font-size: .85rem; color: var(--muted); }
+.title { font-size: 1.15rem; line-height: 1.35; }
+.titleLink { color: var(--text); text-decoration: none; }
+.titleLink:hover { color: var(--primary); text-decoration: underline; }
+.excerpt { color: var(--muted); font-size: .95rem; }
+.footer { margin-top: auto; padding-top: .75rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: .75rem; flex-wrap: wrap; }
+.author { font-size: .875rem; font-weight: 600; color: var(--muted); }
+.actions { display: flex; align-items: center; gap: .6rem; }
+.likeBtn { background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: .35rem .75rem; border-radius: 6px; font-size: .875rem; font-weight: 600; cursor: pointer; }
+.likeBtn:hover { border-color: var(--primary); color: var(--primary); }
+.liked { background: var(--primary-soft); border-color: var(--primary); color: var(--primary-soft-text); }
+.readMore { font-size: .875rem; font-weight: 700; text-decoration: none; }
+.readMore:hover { text-decoration: underline; }

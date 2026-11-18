@@ -1,0 +1,11 @@
+.page { display: flex; flex-direction: column; gap: 1.5rem; max-width: 920px; margin: 0 auto; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.75rem; }
+.heading { font-size: 1.85rem; margin-bottom: .75rem; }
+.lead { color: var(--muted); font-size: 1.05rem; }
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
+.subheading { font-size: 1.2rem; margin-bottom: .75rem; }
+.list { padding-left: 1.25rem; display: flex; flex-direction: column; gap: .5rem; color: var(--muted); }
+.ctaBox { background: var(--primary-soft); color: var(--primary-soft-text); border-radius: 12px; padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-weight: 700; font-size: 1.05rem; }
+.ctaBtn { background: var(--primary); color: #fff; text-decoration: none; padding: .6rem 1.2rem; border-radius: 8px; font-weight: 700; }
+.ctaBtn:hover { background: var(--primary-hover); }
+@media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
